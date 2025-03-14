@@ -1,0 +1,39 @@
+/* 프리텐다드 */
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+/* 레트로 */
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Pretendard", sans-serif;
+  color-scheme: light dark;
+  background-color: #ffffff;
+  color: black;
+}
+
+body {
+  @apply m-0 flex flex-col items-center min-h-screen bg-gray-100 text-gray-900;
+}
+
+a {
+  @apply font-medium no-underline text-gray-900;
+}
+
+button {
+  @apply rounded-lg border border-transparent px-4 py-2 text-base font-medium bg-gray-800 text-white cursor-pointer transition-colors duration-300 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
