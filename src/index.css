@@ -14,7 +14,14 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/* 로고 */
+@font-face {
+  font-family: "Cafe24Nyangi-W-v1.0";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/Cafe24Nyangi-W-v1.0.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,7 +34,7 @@
 }
 
 body {
-  @apply m-0 flex flex-col items-center min-h-screen bg-gray-100 text-gray-900;
+  @apply m-0 flex flex-col min-h-screen bg-gray-100 text-gray-900;
 }
 
 a {
