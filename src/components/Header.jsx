@@ -8,16 +8,16 @@ export default function Header() {
       <div className="sm:hidden flex justify-between items-center max-w-screen-xl mx-auto pt-2">
         <div className="flex items-center">
           <a href="/" aria-label="home" className="flex">
-            <img
-              src="/src/images/silverStar.gif"
-              alt="logo"
-              className="w-6 h-6"
-            />
+            <img src="/src/images/moon.gif" alt="logo" className="w-6 h-6" />
             <h1 className="text-lg font-bold flex font-retro">zzannorita</h1>
           </a>
         </div>
         <div className="flex justify-between items-center">
-          <img src="/src/images/sun.png" alt="light" className="w-4 h-4 mx-2" />
+          <img
+            src="/src/images/sun2.png"
+            alt="light"
+            className="w-4 h-4 mx-2"
+          />
           <div className="text-sm font-retro text-gray-800 ">sound on</div>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Header() {
       {/* 상단바 */}
       <div className="hidden sm:flex justify-end max-w-screen-xl mx-auto pt-4 ">
         <div className="flex justify-between items-center w-20">
-          <img src="/src/images/sun.png" alt="light" className="w-4 h-4" />
+          <img src="/src/images/moon.png" alt="light" className="w-4 h-4" />
           <div className="font-retro text-gray-800 text-sm">sound on</div>
         </div>
       </div>
@@ -61,11 +61,7 @@ export default function Header() {
       <div className="hidden sm:flex justify-between max-w-screen-xl mx-auto pb-2 ">
         <div className="flex justify-between items-center w-full h-8">
           <a href="/" aria-label="home" className="flex">
-            <img
-              src="/src/images/silverStar.gif"
-              alt="logo"
-              className="w-8 h-8 "
-            />
+            <img src="/src/images/cookie.gif" alt="logo" className="w-8 h-8 " />
             <h1 className="text-2xl font-bold flex font-retro">zzannorita</h1>
           </a>
           <nav>
