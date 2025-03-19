@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="w-full border-b border-black-100 bg-white px-4">
+    <header className="w-full border-b border-black-100 bg-white fixed top-0 px-4 shadow-custom">
       {/* 모바일 */}
       {/* 상단바 */}
-      <div className="sm:hidden flex justify-between items-center max-w-screen-xl mx-auto py-2">
+      <div className="sm:hidden flex justify-between items-center max-w-screen-xl mx-auto pt-2">
         <div className="flex items-center">
           <a href="/" aria-label="home" className="flex">
             <img
@@ -17,30 +17,30 @@ export default function Header() {
           </a>
         </div>
         <div className="flex justify-between items-center">
-          <img src="/src/images/sun.png" alt="light" className="w-6 h-6 mx-2" />
-          <div className="font-retro text-gray-800 ">sound on</div>
+          <img src="/src/images/sun.png" alt="light" className="w-4 h-4 mx-2" />
+          <div className="text-sm font-retro text-gray-800 ">sound on</div>
         </div>
       </div>
       {/* 메인헤더 */}
-      <div className="sm:hidden flex justify-center items-center max-w-screen-xl mx-auto py-2 h-10">
+      <div className="sm:hidden flex justify-end items-center max-w-screen-xl mx-auto h-10">
         <nav>
-          <ul className="flex font-retro text-sm  justify-center">
-            <li className="flex justify-center w-24">
+          <ul className="flex space-x-6 font-retro text-sm px-2">
+            <li>
               <a href="#Home" className="hover:text-yellow-500">
                 Home
               </a>
             </li>
-            <li className="flex justify-center w-24">
+            <li>
               <a href="#About" className="hover:text-yellow-500">
                 About
               </a>
             </li>
-            <li className="flex justify-center w-24">
+            <li>
               <a href="#Skills" className="hover:text-yellow-500">
                 Skills
               </a>
             </li>
-            <li className="flex justify-center w-24">
+            <li>
               <a href="#Projects" className="hover:text-yellow-500">
                 Projects
               </a>
