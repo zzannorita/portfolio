@@ -51,15 +51,15 @@ export default function Header() {
 
       {/* 그 외 */}
       {/* 상단바 */}
-      <div className="hidden sm:flex justify-end max-w-screen-xl mx-auto pt-4">
-        <div className="flex justify-between w-24">
-          <img src="/src/images/sun.png" alt="light" className="w-6 h-6" />
-          <div className="font-retro text-gray-800 ">sound on</div>
+      <div className="hidden sm:flex justify-end max-w-screen-xl mx-auto pt-4 ">
+        <div className="flex justify-between items-center w-20">
+          <img src="/src/images/sun.png" alt="light" className="w-4 h-4" />
+          <div className="font-retro text-gray-800 text-sm">sound on</div>
         </div>
       </div>
       {/* 메인헤더 */}
-      <div className="hidden sm:flex justify-between max-w-screen-xl mx-auto py-2 ">
-        <div className="flex justify-between items-start w-full h-10">
+      <div className="hidden sm:flex justify-between max-w-screen-xl mx-auto pb-2 ">
+        <div className="flex justify-between items-center w-full h-8">
           <a href="/" aria-label="home" className="flex">
             <img
               src="/src/images/silverStar.gif"
