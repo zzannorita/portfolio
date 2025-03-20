@@ -14,13 +14,19 @@
   font-weight: normal;
   font-style: normal;
 }
-/* 로고 */
+/* 제목 */
 @font-face {
-  font-family: "Cafe24Nyangi-W-v1.0";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/Cafe24Nyangi-W-v1.0.woff2")
+  font-family: "Tenada";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2")
     format("woff2");
   font-weight: normal;
   font-style: normal;
+}
+/* 텍스트 그림자 */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  }
 }
 @tailwind base;
 @tailwind components;
