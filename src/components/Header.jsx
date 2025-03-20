@@ -24,7 +24,7 @@ export default function Header() {
       {/* 메인헤더 */}
       <div className="sm:hidden flex justify-end items-center max-w-screen-xl mx-auto h-10">
         <nav>
-          <ul className="flex space-x-6 font-retro text-sm px-2">
+          <ul className="flex space-x-6 font-retro text-md px-2">
             <li>
               <a href="#Home" className="hover:text-yellow-500">
                 Home
@@ -65,7 +65,7 @@ export default function Header() {
             <h1 className="text-2xl font-bold flex font-retro">zzannorita</h1>
           </a>
           <nav>
-            <ul className="flex space-x-6 font-retro text-lg">
+            <ul className="flex space-x-6 font-retro text-xl">
               <li>
                 <a href="#Home" className="hover:text-yellow-500">
                   Home
