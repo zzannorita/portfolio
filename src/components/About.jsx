@@ -5,23 +5,32 @@ export default function About() {
     {
       images: ["/src/images/name.png", "/src/images/name2.png"],
       label: "name",
+      text: "장유리",
     },
-    { images: ["/src/images/age.png", "/src/images/age2.png"], label: "age" },
+    {
+      images: ["/src/images/age.png", "/src/images/age2.png"],
+      label: "age",
+      text: "1999.05.18",
+    },
     {
       images: ["/src/images/major.png", "/src/images/major2.png"],
       label: "major",
+      text: "인터넷보안공학과",
     },
     {
       images: ["/src/images/email.png", "/src/images/email2.png"],
       label: "email",
+      text: "zzannorita@gmail.com",
     },
     {
       images: ["/src/images/phone.png", "/src/images/phone2.png"],
       label: "phone",
+      text: "010-7209-5811",
     },
     {
       images: ["/src/images/certificate.jpg", "/src/images/certificate2.png"],
       label: "certificate",
+      text: "정보처리기사",
     },
   ];
 
@@ -32,7 +41,12 @@ export default function About() {
       </h1>
       <div className="w-[90%] flex flex-wrap justify-center gap-8">
         {items.map((item, index) => (
-          <ImageCarousel key={index} images={item.images} label={item.label} />
+          <ImageCarousel
+            key={index}
+            images={item.images}
+            label={item.label}
+            text={item.text}
+          />
         ))}
       </div>
     </div>
