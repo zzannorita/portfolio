@@ -17,17 +17,17 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-[70vh]">
+    <div className="relative w-full h-[50vh] sm:h-[70vh] lg:h-[80vh]">
       <img
         src={bgImgs[currentImg]}
         alt="carousel"
         className="w-full h-full object-cover transition-opacity duration-700 ease-in-out"
       />
-      <div className="absolute top-[45%] left-[8%] sm:top-[45%] sm:left-[15%] lg:top-[45%] lg:left-[17%] font-logo text-white text-shadow">
-        <h1 className=" text-[1.5rem] sm:text-[2rem] lg:text-[3.5rem]">
+      <div className="absolute top-[45%] left-[8%] sm:top-[50%] sm:left-[15%] lg:top-[45%] lg:left-[17%] font-logo text-white text-shadow">
+        <h1 className=" text-[1.5rem] sm:text-[2rem] lg:text-[3rem]">
           web front-end developer portfolio
         </h1>
-        <h3 className="text-[1rem] sm:text-[1.5rem] lg:text-[2.5rem]">
+        <h3 className="text-[1rem] sm:text-[1.5rem] lg:text-[2rem]">
           끊임없이 도전하는 개발자 장유리입니다
         </h3>
       </div>

@@ -21,7 +21,7 @@ export default function ImageCarousel({ images, label, text }) {
       <div className="absolute top-1/3 flex items-center justify-center text-gray-900 font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-200">
         {text}
       </div>
-      <h3 className="font-logo text-[1rem] text-gray-700">{label}</h3>
+      <h3 className=" font-bold text-[1rem] text-gray-700">{label}</h3>
     </div>
   );
 }

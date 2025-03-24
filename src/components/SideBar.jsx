@@ -25,7 +25,7 @@ export default function SideBar() {
         </div>
       </div>
       {/* 그 외 */}
-      <div className="hidden fixed bottom-32 right-14 sm:flex flex-col justify-start w-16 h-58 ">
+      <div className="hidden fixed bottom-16 right-14 sm:flex flex-col justify-start w-16 h-58 ">
         <div className="flex justify-center items-center">
           <img src="/src/images/pin.png" alt="pin" className="w-10 h-10" />
         </div>
