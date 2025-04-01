@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const bgImgs = [
   "/src/images/bg.jpg",
   "/src/images/bg-2.jpg",
-  "/src/images/bg-3.jpg",
+  "/src/images/bg-4.jpg",
 ];
 
 export default function Home() {
@@ -17,21 +17,33 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative w-full h-[50vh] sm:h-[70vh] lg:h-[80vh]">
+    <div className="relative w-full mt-[76px]">
       <img
         src={bgImgs[currentImg]}
         alt="carousel"
-        className="w-full h-full object-cover transition-opacity duration-700 ease-in-out"
+        className="w-full h-[40vh] sm:h-full object-cover transition-opacity duration-700 ease-in-out"
       />
-      <div className="absolute top-[45%] left-[8%] sm:top-[50%] sm:left-[15%] lg:top-[45%] lg:left-[17%] font-logo text-white text-shadow">
-        <h1 className=" text-[1.5rem] sm:text-[2rem] lg:text-[3rem]">
+      <div className="absolute top-[35%] left-[14%] sm:top-[25%] sm:left-[15%] lg:top-[35%] lg:left-[17%] font-logo text-white text-shadow">
+        <div className="flex items-center">
+          <img
+            src="/src/images/flower.png"
+            alt="flower"
+            className="w-16 sm:w-24 h-auto"
+          />
+          <h3 className="text-[1rem] sm:text-[1rem] lg:text-[1.5rem] mx-2">
+            welcome
+          </h3>
+          <img
+            src="/src/images/flower.png"
+            alt="flower"
+            className="w-16 sm:w-24 h-auto"
+          />
+        </div>
+        <h1 className=" text-[1rem] sm:text-[1.5rem] lg:text-[2.5rem] ">
           web front-end developer portfolio
         </h1>
-        <h3 className="text-[1rem] sm:text-[1.5rem] lg:text-[2rem]">
-          끊임없이 도전하는 개발자 장유리입니다
-        </h3>
       </div>
-      <div className="hidden sm:flex absolute top-[55%] right-8 flex-col space-y-6 transform -translate-y-1/2 ">
+      <div className="hidden sm:flex absolute top-[50%] right-8 flex-col space-y-6 transform -translate-y-1/2 ">
         {bgImgs.map((_, index) => (
           <button
             key={index}
