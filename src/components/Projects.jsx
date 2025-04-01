@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="w-full flex flex-col mt-28">
-      <div className="flex justify-center items-center h-[10vh] text-3xl text-black-700 font-retro">
+    <div className="w-full flex flex-col mt-36">
+      <div className="flex justify-center items-center h-[10vh] text-2xl text-black-700 font-bold">
         Projects map
       </div>
       <div

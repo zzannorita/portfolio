@@ -36,7 +36,7 @@ export default function About() {
 
   return (
     <div className="flex flex-col justify-between items-center max-w-screen-xl mx-auto h-auto mt-16">
-      <h1 className="flex justify-center items-center h-[15vh] text-3xl text-black-700 font-retro my-8">
+      <h1 className="flex justify-center items-center h-[15vh] text-2xl text-black-700 font-bold my-4">
         about me!
       </h1>
       <div className="w-[90%] flex flex-wrap justify-center gap-8">

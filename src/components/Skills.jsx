@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col justify-between items-center max-w-screen-xl mx-auto h-auto mt-16">
-      <h1 className="flex justify-center items-center h-[15vh] text-3xl text-black-700 font-retro my-8">
+    <div className="flex flex-col justify-between items-center max-w-screen-xl mx-auto h-auto mt-24">
+      <h1 className="flex justify-center items-center h-[10vh] text-2xl text-black-700 font-bold my-8">
         My Skills
       </h1>
       <div className="w-full flex flex-col md:flex-row flex-wrap justify-center bg-[url('/src/images/cloud2.jpg')] sm:bg-[url('/src/images/cloud.jpg')] bg-cover bg-center rounded-[40px]">
