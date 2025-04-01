@@ -13,12 +13,20 @@ function App() {
   return (
     <div>
       <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
       <SideBar />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <Footer />
     </div>
   );
 }

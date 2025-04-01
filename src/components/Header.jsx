@@ -1,6 +1,12 @@
 import React from "react";
 
 export default function Header() {
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
   return (
     <header className="w-full border-b border-black-100 bg-white fixed z-50 top-0 px-4 shadow-custom">
       {/* 모바일 */}
@@ -26,24 +32,36 @@ export default function Header() {
         <nav>
           <ul className="flex space-x-6 text-sm px-2">
             <li>
-              <a href="#Home" className="hover:text-yellow-500">
+              <button
+                onClick={() => handleScroll("home")}
+                className="hover:text-gray-400"
+              >
                 Home
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#About" className="hover:text-yellow-500">
+              <button
+                onClick={() => handleScroll("about")}
+                className="hover:text-gray-400"
+              >
                 About
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#Skills" className="hover:text-yellow-500">
+              <button
+                onClick={() => handleScroll("skills")}
+                className="hover:text-gray-400"
+              >
                 Skills
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#Projects" className="hover:text-yellow-500">
+              <button
+                onClick={() => handleScroll("projects")}
+                className="hover:text-gray-400"
+              >
                 Projects
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
@@ -67,24 +85,36 @@ export default function Header() {
           <nav>
             <ul className="flex space-x-6 text-md">
               <li>
-                <a href="#Home" className="hover:text-yellow-500">
+                <button
+                  onClick={() => handleScroll("home")}
+                  className="hover:text-gray-400"
+                >
                   Home
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#About" className="hover:text-yellow-500">
+                <button
+                  onClick={() => handleScroll("about")}
+                  className="hover:text-gray-400"
+                >
                   About
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#Skills" className="hover:text-yellow-500">
+                <button
+                  onClick={() => handleScroll("skills")}
+                  className="hover:text-gray-400"
+                >
                   Skills
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#Projects" className="hover:text-yellow-500">
+                <button
+                  onClick={() => handleScroll("projects")}
+                  className="hover:text-gray-400"
+                >
                   Projects
-                </a>
+                </button>
               </li>
             </ul>
           </nav>
