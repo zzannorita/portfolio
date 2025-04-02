@@ -2,10 +2,9 @@ import React from "react";
 
 export default function Header() {
   const handleScroll = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "center" });
-    }
+    document
+      .getElementById(id)
+      ?.scrollIntoView({ behavior: "smooth", block: "center" });
   };
   return (
     <header className="w-full border-b border-black-100 bg-white fixed z-50 top-0 px-4 shadow-custom">
