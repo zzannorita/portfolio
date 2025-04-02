@@ -4,7 +4,7 @@ export default function SideBar() {
   return (
     <div>
       {/* 모바일 */}
-      <div className="sm:hidden fixed bottom-16 right-4 flex flex-col justify-start w-14">
+      <div className="sm:hidden fixed bottom-16 right-4 flex flex-col justify-start w-14 z-50">
         <div className="rounded-2xl bg-white shadow-custom h-52">
           <div className="flex justify-center items-center">
             <img src="/src/images/pin.png" alt="pin" className="w-10 h-10" />
@@ -25,7 +25,7 @@ export default function SideBar() {
         </div>
       </div>
       {/* 그 외 */}
-      <div className="hidden fixed bottom-16 right-14 sm:flex flex-col justify-start w-16 h-58 ">
+      <div className="hidden fixed bottom-16 right-14 sm:flex flex-col justify-start w-16 h-58 z-50">
         <div className="flex justify-center items-center">
           <img src="/src/images/pin.png" alt="pin" className="w-10 h-10" />
         </div>
