@@ -24,12 +24,12 @@ export default function Projects() {
       period: "2023.12 - 2024.02",
       content: [
         "'팀메이트'는 팀을 만들어 실시간 문서 작성, 캘린더 공유를 할 수 있는 서비스입니다.",
-        "Vite와 React.js, TypeScript를 기반으로 프로젝트를 구축하고, Axios와 Recoil을 활용해 API 통신 및 상태 관리를 최적화했습니다. JWT를 활용해 로그인 후 토큰을 저장하고, Axios 인터셉터를 통해 인증 흐름을 간소화했습니다.",
+        "Vite와 React.js, TypeScript를 기반으로 개발되었으며며 Axios와 Recoil을 활용해 API 통신 및 상태 관리를 최적화했습니다. JWT를 활용해 로그인 후 토큰을 저장하고, Axios 인터셉터를 통해 인증 흐름을 간소화했습니다.",
       ],
       skill: ["Vite", "React.js", "Typescript", "Axios", "Recoil"],
       gitHub: "https://github.com/100backfro/teammate",
       notion: "https://www.notion.so/TEAMMATE-f6266a684b02452d99bcfec7a44192ed",
-      detail: "1c87979a0bd580e4b18bcc70b9d776a7",
+      detail: "1cc7979a0bd580d0ad79e16da8b8f8eb",
       position: { top: "9vh", left: "54%" },
       img: [
         "/src/images/project-teammate-2.png",
@@ -45,8 +45,8 @@ export default function Projects() {
       ],
       skill: ["React.js", "JavaScript", "CSS Modules"],
       gitHub: "https://github.com/zzannorita/LetsDoIt",
-      detail: "1c87979a0bd580e4b18bcc70b9d776a7",
-      position: { top: "78vh", left: "28%" },
+      detail: "1cc7979a0bd5802ba069d2219b90e458",
+      position: { top: "70vh", left: "28%" },
       img: ["/src/images/project-todo-1.png", "/src/images/project-todo-2.png"],
     },
     {
