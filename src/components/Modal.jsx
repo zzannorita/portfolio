@@ -12,7 +12,7 @@ export default function Modal({ isOpen, onClose, project }) {
     >
       {/* 모달창 */}
       <div
-        className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-[90%] h-auto sm:w-[650px] sm:h-[450px] lg:h-[450px] "
+        className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg overflow-scroll w-[90%] h-[425px] sm:w-[650px] sm:h-[450px] lg:h-[450px] "
         style={{ scrollbarWidth: "none" }}
         onClick={(e) => e.stopPropagation()} // 내부 클릭 시 닫히지 않도록 방지
       >
@@ -88,22 +88,8 @@ export default function Modal({ isOpen, onClose, project }) {
                     />
                   </a>
                 )}
-                <div className="flex sm:hidden justify-end">
-                  <button
-                    className="text-xs border border-gray-200 w-16 ml-2 hover:bg-gray-200"
-                    onClick={() => setSelectedNotion(true)}
-                  >
-                    상세보기
-                  </button>
-                  {selectedNotion && (
-                    <NotionModal
-                      link={project.detail}
-                      onClose={() => setSelectedNotion(false)}
-                    />
-                  )}
-                </div>
               </div>
-              <div className="sm:flex hidden justify-end">
+              <div className="flex justify-center sm:justify-end">
                 <button
                   className="text-xs border border-gray-200 w-16 p-2 hover:bg-gray-200"
                   onClick={() => setSelectedNotion(true)}
