@@ -46,7 +46,7 @@ export default function Projects() {
       skill: ["React.js", "JavaScript", "CSS Modules"],
       gitHub: "https://github.com/zzannorita/LetsDoIt",
       detail: "1cc7979a0bd5802ba069d2219b90e458",
-      position: { top: "70vh", left: "28%" },
+      position: { top: "78vh", left: "28%" },
       img: ["/src/images/project-todo-1.png", "/src/images/project-todo-2.png"],
     },
     {
@@ -72,7 +72,7 @@ export default function Projects() {
         Projects map
       </div>
       <div
-        className="w-full h-[50vh] sm:h-[70vh] lg:h-[100vh]  
+        className="w-full h-[100vh]  
                  bg-[url('/src/images/map.png')] 
                  bg-cover bg-center bg-no-repeat relative"
       >
