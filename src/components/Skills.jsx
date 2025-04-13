@@ -107,7 +107,7 @@ export default function Skills() {
             </div>
             {selectedText &&
               section.items.some((i) => i.text === selectedText) && (
-                <div className="absolute top-20 left-1/2 transform -translate-x-1/2 flex justify-center items-center w-[300px] h-[300px] z-10">
+                <div className="absolute top-18 left-1/2 transform -translate-x-1/2 flex justify-center items-center w-[350px] h-[350px] z-10">
                   <img
                     src="/src/images/memo.png"
                     alt="memo background"
@@ -118,7 +118,7 @@ export default function Skills() {
                   </p>
                   <button
                     onClick={() => setSelectedText("")}
-                    className="absolute top-14 right-14 text-md"
+                    className="absolute top-16 right-16 text-lg"
                   >
                     &times;
                   </button>
