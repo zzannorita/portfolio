@@ -1,6 +1,14 @@
 import React from "react";
 
 export default function SideBar() {
+  const handleCopy = async (text, label) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      alert(`${label} 복사되었습니다! `);
+    } catch {
+      alert("복사실패");
+    }
+  };
   return (
     <div>
       {/* 모바일 */}
@@ -10,17 +18,32 @@ export default function SideBar() {
             <img src="/src/images/pin.png" alt="pin" className="w-10 h-10" />
           </div>
           <div className="flex flex-col justify-between items-center h-36 mt-2">
-            <div className="flex justify-center items-center font-retro text-sm w-11 h-11 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer">
+            <button
+              className="flex justify-center items-center font-retro text-sm w-11 h-11 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer"
+              onClick={() => handleCopy("zzannorita@gmail.com", "이메일이")}
+            >
               email
-            </div>
+            </button>
 
-            <div className="flex justify-center items-center font-retro text-sm w-11 h-11 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer">
+            <button
+              className="flex justify-center items-center font-retro text-sm w-11 h-11 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer"
+              onClick={() => handleCopy("010-7209-5811", "전화번호가")}
+            >
               phone
-            </div>
+            </button>
 
-            <div className="flex justify-center items-center font-retro text-sm w-11 h-11 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer">
+            <button
+              className="flex justify-center items-center font-retro text-sm w-11 h-11 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://github.com/zzannorita",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
               gitHub
-            </div>
+            </button>
           </div>
         </div>
       </div>
@@ -31,17 +54,32 @@ export default function SideBar() {
         </div>
 
         <div className="flex flex-col justify-between items-center rounded-2xl bg-white shadow-custom h-56 py-4">
-          <div className="flex justify-center items-center font-retro text-md w-12 h-12 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer">
+          <button
+            className="flex justify-center items-center font-retro text-md w-12 h-12 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer"
+            onClick={() => handleCopy("zzannorita@gmail.com", "이메일이")}
+          >
             email
-          </div>
+          </button>
 
-          <div className="flex justify-center items-center font-retro text-md w-12 h-12 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer">
+          <button
+            className="flex justify-center items-center font-retro text-md w-12 h-12 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer"
+            onClick={() => handleCopy("010-7209-5811", "전화번호가")}
+          >
             phone
-          </div>
+          </button>
 
-          <div className="flex justify-center items-center font-retro text-md w-12 h-12 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer">
+          <button
+            className="flex justify-center items-center font-retro text-md w-12 h-12 bg-gray-100 rounded-full border border-gray-200 hover:bg-gray-200 cursor-pointer"
+            onClick={() =>
+              window.open(
+                "https://github.com/zzannorita",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+          >
             gitHub
-          </div>
+          </button>
         </div>
       </div>
     </div>
