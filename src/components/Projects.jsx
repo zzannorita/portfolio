@@ -41,7 +41,7 @@ export default function Projects() {
       period: "2024.06 - 2024.07",
       content: [
         "‘해보자고’는 사용자 고유 번호를 기반으로 등록된 일정을 캘린더와 간트차트 형태로 시각화해주는 일정 관리 서비스입니다.",
-        "Fetch API를 활용해 서버와의 비동기 통신으로 사용자 정보를 효율적으로 관리했으며, React Router를 통해 로그인 상태에 따른 페이지 접근을 제어하고, localStorage를 활용해 로그인 지속성을 개선하였습니다.",
+        "Fetch API를 활용해 서버와의 비동기 통신으로 사용자 정보를 효율적으로 관리했으며, React Router를 통해 로그인 상태에 따른 페이지 접근을 제어했습니다.",
       ],
       skill: ["React.js", "JavaScript", "CSS Modules"],
       gitHub: "https://github.com/zzannorita/LetsDoIt",
@@ -54,13 +54,13 @@ export default function Projects() {
       period: "2025.03 - 2025.04",
       content: [""],
       skill: ["vite", "react.js", "Javascript", "TailwindCss"],
-      gitHub: "https://github.com/100backfro/teammate",
-      notion: "https://www.notion.so/TEAMMATE-f6266a684b02452d99bcfec7a44192ed",
+      gitHub: "https://github.com/zzannorita/portfolio",
       detail: "1c87979a0bd580e4b18bcc70b9d776a7",
       position: { top: "60vh", left: "58%" },
       img: [
-        "/src/images/project-mango-1.png",
-        "/src/images/project-mango-2.png",
+        "/src/images/project-port-1.png",
+        "/src/images/project-port-2.png",
+        "/src/images/project-port-3.png",
       ],
     },
   ];
