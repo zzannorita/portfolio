@@ -10,22 +10,22 @@ export default function Skills() {
         {
           src: "/src/images/js.png",
           alt: "js logo",
-          text: "주로 자바스크립ES6+ 문법을 활용하여 코드를 작성 할 수 있습니다.",
+          text: "JavaScript(ES6+)를 중심으로 컴포넌트 기반 UI 개발, 상태 관리, 비동기 로직 구현 등 다양한 웹 프로젝트를 진행해왔습니다. 타입 안정성을 위해 TypeScript도 간단하게 활용해본 경험이 있습니다.",
         },
         {
           src: "/src/images/python.png",
           alt: "python logo",
-          text: "간단한 스크립트를 작성 할 수 있습니다.",
+          text: "Python은 주로 코딩 테스트 대비 목적으로 학습했으며, 간단한 알고리즘 문제 해결과 스크립트 작성이 가능합니다.",
         },
         {
           src: "/src/images/html-5.png",
           alt: "html5 logo",
-          text: "웹 페이지의 구조를 설계하며 HTML5의 시맨틱 태그와 다양한 기능을 적용할 수 있습니다.",
+          text: "대학 시절부터 꾸준히 사용해온 언어로, 시맨틱 태그를 활용한 웹 구조 설계에 익숙하며, 명확하고 유지보수하기 쉬운 마크업을 작성할 수 있습니다.",
         },
         {
           src: "/src/images/css-3.png",
           alt: "css3 logo",
-          text: "순수 CSS만을 이용하여 레이아웃을 할 수 있습니다.",
+          text: "순수 CSS만을 이용하여 레이아웃을 할 수 있으며 반응형 UI 구현 경험도 있습니다.",
         },
       ],
     },
@@ -35,17 +35,17 @@ export default function Skills() {
         {
           src: "/src/images/react.png",
           alt: "react logo",
-          text: "React를 활용한 컴포넌트 기반 UI 설계 경험이 있습니다.",
+          text: "대규모 팀 프로젝트 2개에서 React를 메인으로 사용하였으며, 컴포넌트 기반 설계와 상태 관리에 익숙합니다. 가장 친숙한 라이브러리로, 복잡한 UI 구조도 구조적으로 설계하고 유지보수할 수 있습니다.",
         },
         {
           src: "/src/images/tailwind.png",
           alt: "tailwind logo",
-          text: "Tailwind CSS를 사용하여 반응형 UI를 빠르게 구축할 수 있습니다.",
+          text: "포트폴리오 사이트 제작 시 Tailwind CSS를 활용해 반응형 UI를 효율적으로 구현한 경험이 있습니다. 빠른 스타일링과 클래스 조합에 익숙하며, 컴포넌트 단위로 유연한 UI 설계가 가능합니다.",
         },
         {
           src: "/src/images/axios.png",
           alt: "axios logo",
-          text: "Axios를 통해 비동기 통신을 구현하고 데이터를 효율적으로 처리할 수 있습니다.",
+          text: "Axios를 활용해 API와의 비동기 통신을 구현한 경험이 있으며, 에러 처리 및 응답 데이터 가공 등 실무에 가까운 로직을 다뤄본 경험이 있습니다.",
         },
       ],
     },
@@ -55,22 +55,22 @@ export default function Skills() {
         {
           src: "/src/images/github.png",
           alt: "github logo",
-          text: "GitHub를 활용한 버전 관리 및 협업 경험이 있습니다.",
+          text: "GitHub를 활용하여 기능별 브랜치를 분리하고, 커밋 메시지를 규칙에 맞게 작성하며 체계적인 버전 관리와 협업을 경험했습니다.",
         },
         {
           src: "/src/images/figma.png",
           alt: "figma logo",
-          text: "Figma를 이용한 와이어프레임 및 UI 디자인 작업 경험이 있습니다.",
+          text: "Figma를 활용해 와이어프레임과 UI 디자인을 구성하며, 디자이너의 디자인 시안을 바탕으로 CSS 작업까지 원활하게 수행할 수 있습니다.",
         },
         {
           src: "/src/images/slack.png",
           alt: "slack logo",
-          text: "Slack을 이용해 팀원들과 효율적으로 소통하며 협업한 경험이 있습니다.",
+          text: "6개월간(2023.6~2024.2) Slack을 통해 팀원들과 매일 데일리 스크럼을 진행하며 업무 진행 상황을 공유하고, 팀 내 협업과 일정 조율을 효과적으로 경험했습니다.",
         },
         {
           src: "/src/images/discord.png",
           alt: "discord logo",
-          text: "디스코드를 통한 프로젝트 회의 및 자료 공유 경험이 있습니다.",
+          text: "디스코드와 GitHub를 연동하여 실시간 코드 리뷰와 프로젝트 알림 공유가 가능한 협업 환경을 구성하고, 소규모 및 대규모 프로젝트를 원활히 진행한 경험이 있습니다.",
         },
       ],
     },
@@ -113,7 +113,7 @@ export default function Skills() {
                     alt="memo background"
                     className="w-full h-full object-contain"
                   />
-                  <p className="w-[200px] absolute px-4 text-sm text-gray-700 text-center leading-relaxed">
+                  <p className="w-[200px] absolute px-4 text-xs text-gray-700 text-center leading-relaxed">
                     {selectedText}
                   </p>
                   <button
