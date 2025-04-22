@@ -3,32 +3,32 @@ import ImageCarousel from "./ImageCarousel";
 export default function About() {
   const items = [
     {
-      images: ["/images/name.png", "/images/name2.png"],
+      images: ["images/name.png", "images/name2.png"],
       label: "name",
       text: "장유리",
     },
     {
-      images: ["/images/age.png", "/images/age2.png"],
+      images: ["images/age.png", "images/age2.png"],
       label: "age",
       text: "1999.05.18",
     },
     {
-      images: ["/images/major.png", "/images/major2.png"],
+      images: ["images/major.png", "images/major2.png"],
       label: "major",
       text: "인터넷보안공학과",
     },
     {
-      images: ["/images/email.png", "/images/email2.png"],
+      images: ["images/email.png", "images/email2.png"],
       label: "email",
       text: "zzannorita@gmail.com",
     },
     {
-      images: ["/images/phone.png", "/images/phone2.png"],
+      images: ["images/phone.png", "images/phone2.png"],
       label: "phone",
       text: "010-7209-5811",
     },
     {
-      images: ["/images/certificate.jpg", "/images/certificate2.png"],
+      images: ["images/certificate.jpg", "images/certificate2.png"],
       label: "certificate",
       text: "정보처리기사",
     },

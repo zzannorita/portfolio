@@ -70,7 +70,7 @@ export default function Modal({ isOpen, onClose, project }) {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/images/github.png"
+                    src="images/github.png"
                     alt="github"
                     className="w-6 mr-2"
                   />
@@ -81,11 +81,7 @@ export default function Modal({ isOpen, onClose, project }) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
-                      src="/images/notion.png"
-                      alt="notion"
-                      className="w-6"
-                    />
+                    <img src="images/notion.png" alt="notion" className="w-6" />
                   </a>
                 )}
               </div>
