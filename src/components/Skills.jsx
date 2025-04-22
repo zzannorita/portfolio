@@ -53,7 +53,7 @@ export default function Skills() {
       title: "tools",
       items: [
         {
-          src: "images/github.png",
+          src: "/images/github.png",
           alt: "github logo",
           text: "GitHub를 활용하여 기능별 브랜치를 분리하고, 커밋 메시지를 규칙에 맞게 작성하며 체계적인 버전 관리와 협업을 경험했습니다.",
         },
