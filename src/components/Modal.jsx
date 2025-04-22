@@ -87,7 +87,7 @@ export default function Modal({ isOpen, onClose, project }) {
               </div>
               <div className="flex justify-center sm:justify-end">
                 <button
-                  className="text-xs border border-gray-200 w-16 p-2 hover:bg-gray-200"
+                  className="text-xs border border-gray-200 w-16 p-2 hover:bg-gray-200 rounded-lg"
                   onClick={() => setSelectedNotion(true)}
                 >
                   상세보기
