@@ -14,10 +14,7 @@ export default function Projects() {
       gitHub: "https://github.com/zzannorita/MangoAndGuava",
       detail: "1c87979a0bd580e4b18bcc70b9d776a7",
       position: { top: "18vh", left: "36%" },
-      img: [
-        "/src/images/project-mango-1.png",
-        "/src/images/project-mango-2.png",
-      ],
+      img: ["/images/project-mango-1.png", "/images/project-mango-2.png"],
     },
     {
       name: "TeamMate",
@@ -31,10 +28,7 @@ export default function Projects() {
       notion: "https://www.notion.so/TEAMMATE-f6266a684b02452d99bcfec7a44192ed",
       detail: "1cc7979a0bd580d0ad79e16da8b8f8eb",
       position: { top: "9vh", left: "54%" },
-      img: [
-        "/src/images/project-teammate-2.png",
-        "/src/images/project-teammate-1.png",
-      ],
+      img: ["/images/project-teammate-2.png", "/images/project-teammate-1.png"],
     },
     {
       name: "해보자Go",
@@ -47,7 +41,7 @@ export default function Projects() {
       gitHub: "https://github.com/zzannorita/LetsDoIt",
       detail: "1cc7979a0bd5802ba069d2219b90e458",
       position: { top: "78vh", left: "28%" },
-      img: ["/src/images/project-todo-1.png", "/src/images/project-todo-2.png"],
+      img: ["/images/project-todo-1.png", "/images/project-todo-2.png"],
     },
     {
       name: "포트폴리오",
@@ -58,9 +52,9 @@ export default function Projects() {
       detail: "1c87979a0bd580e4b18bcc70b9d776a7",
       position: { top: "60vh", left: "58%" },
       img: [
-        "/src/images/project-port-1.png",
-        "/src/images/project-port-2.png",
-        "/src/images/project-port-3.png",
+        "/images/project-port-1.png",
+        "/images/project-port-2.png",
+        "/images/project-port-3.png",
       ],
     },
   ];
@@ -73,7 +67,7 @@ export default function Projects() {
       </div>
       <div
         className="w-full h-[100vh]  
-                 bg-[url('/src/images/map.png')] 
+                 bg-[url('/images/map.png')] 
                  bg-cover bg-center bg-no-repeat relative"
       >
         {project.map((item, index) => (
@@ -83,7 +77,7 @@ export default function Projects() {
             style={{ top: item.position.top, left: item.position.left }}
           >
             <img
-              src="/src/images/redPin.png"
+              src="/images/redPin.png"
               alt="pin"
               className=" w-12 h-12 hover:scale-110 transition duration-200 animate-bounce"
               onClick={() => setSelectedProject(item)}

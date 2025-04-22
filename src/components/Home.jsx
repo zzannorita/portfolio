@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const bgImgs = [
-  "/src/images/bg.jpg",
-  "/src/images/bg-2.jpg",
-  "/src/images/bg-4.jpg",
-];
+const bgImgs = ["/images/bg.jpg", "/images/bg-2.jpg", "/images/bg-4.jpg"];
 
 export default function Home() {
   const [currentImg, setCurrentImg] = useState(0);
@@ -26,7 +22,7 @@ export default function Home() {
       <div className="absolute top-[35%] left-[14%] sm:top-[25%] sm:left-[15%] lg:top-[35%] lg:left-[17%] font-logo text-white text-shadow">
         <div className="flex items-center">
           <img
-            src="/src/images/flower.png"
+            src="/images/flower.png"
             alt="flower"
             className="w-16 sm:w-24 h-auto"
           />
@@ -34,7 +30,7 @@ export default function Home() {
             welcome
           </h3>
           <img
-            src="/src/images/flower.png"
+            src="/images/flower.png"
             alt="flower"
             className="w-16 sm:w-24 h-auto"
           />
