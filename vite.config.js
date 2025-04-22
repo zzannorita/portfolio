@@ -9,5 +9,5 @@ export default defineConfig({
     port: 5173, // Vite 기본 포트
     strictPort: true, // 지정한 포트 유지
   },
-  base: "https://zzannorita.github.io/portfolio/",
+  base: "/portfolio/",
 });
