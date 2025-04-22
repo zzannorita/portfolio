@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import "/styles/tailwind.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
