@@ -46,10 +46,13 @@ export default function Projects() {
     {
       name: "포트폴리오",
       period: "2025.03 - 2025.04",
-      content: [""],
+      content: [
+        "포트폴리오 사이트는 Vite와 React.js를 기반으로 개발되었습니다. JavaScript를 활용하여 동적이고 반응형 UI를 구현했으며, Tailwind CSS를 처음으로 적용하여 스타일링을 최적화했습니다.",
+        "또한 GitHub Pages를 통해 배포를 경험하며, 간편한 배포와 호스팅을 실습했습니다.",
+      ],
       skill: ["vite", "react.js", "Javascript", "TailwindCss"],
       gitHub: "https://github.com/zzannorita/portfolio",
-      detail: "1c87979a0bd580e4b18bcc70b9d776a7",
+      detail: "https://zzannorita.github.io/portfolio/",
       position: { top: "60vh", left: "58%" },
       img: [
         "images/project-port-1.png",
