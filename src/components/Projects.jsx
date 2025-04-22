@@ -67,7 +67,7 @@ export default function Projects() {
       </div>
       <div
         className="w-full h-[100vh]  
-                 bg-[url('images/map.png')] 
+                 bg-[url('./images/map.png')] 
                  bg-cover bg-center bg-no-repeat relative"
       >
         {project.map((item, index) => (

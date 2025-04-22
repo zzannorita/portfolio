@@ -53,7 +53,7 @@ export default function Skills() {
       title: "tools",
       items: [
         {
-          src: "/images/github.png",
+          src: "images/github.png",
           alt: "github logo",
           text: "GitHub를 활용하여 기능별 브랜치를 분리하고, 커밋 메시지를 규칙에 맞게 작성하며 체계적인 버전 관리와 협업을 경험했습니다.",
         },
@@ -79,7 +79,7 @@ export default function Skills() {
   return (
     <div className="flex flex-col justify-between items-center max-w-screen-xl mx-auto h-auto mt-24">
       <h1 className="text-2xl font-bold my-8">My Skills</h1>
-      <div className="w-full flex flex-col md:flex-row flex-wrap justify-center bg-[url('images/cloud2.jpg')] sm:bg-[url('images/cloud.jpg')] bg-cover bg-center rounded-[40px]">
+      <div className="w-full flex flex-col md:flex-row flex-wrap justify-center bg-[url('./images/cloud2.jpg')] sm:bg-[url('./images/cloud.jpg')] bg-cover bg-center rounded-[40px]">
         {skillSections.map((section, index) => (
           <div
             key={index}
