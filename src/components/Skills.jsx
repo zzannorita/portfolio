@@ -79,7 +79,7 @@ export default function Skills() {
   return (
     <div className="flex flex-col justify-between items-center max-w-screen-xl mx-auto h-auto mt-24">
       <h1 className="text-2xl font-bold my-8">My Skills</h1>
-      <div className="w-full flex flex-col md:flex-row flex-wrap justify-center bg-[url('./images/cloud2.jpg')] sm:bg-[url('./images/cloud.jpg')] bg-cover bg-center rounded-[40px]">
+      <div className="w-full flex flex-col md:flex-row flex-wrap justify-center bg-[url('/images/cloud2.jpg')] sm:bg-[url('/images/cloud.jpg')] bg-cover bg-center rounded-[40px]">
         {skillSections.map((section, index) => (
           <div
             key={index}
