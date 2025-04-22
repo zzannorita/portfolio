@@ -1,11 +1,9 @@
 import ImageCarousel from "./ImageCarousel";
-import imgTest from "../../public/images/cat2.png";
 
 export default function About() {
   const items = [
     {
-      // images: ["images/name.png", "images/name2.png"],
-      images: [imgTest, imgTest],
+      images: ["images/name.png", "images/name2.png"],
       label: "name",
       text: "장유리",
     },
