@@ -52,7 +52,6 @@ export default function Projects() {
       ],
       skill: ["vite", "react.js", "Javascript", "TailwindCss"],
       gitHub: "https://github.com/zzannorita/portfolio",
-      // detail: "https://zzannorita.github.io/portfolio/",
       position: { top: "60vh", left: "58%" },
       img: [
         "images/project-port-1.png",
@@ -92,7 +91,13 @@ export default function Projects() {
         <Modal
           isOpen={!!selectedProject}
           onClose={() => setSelectedProject(null)}
-          project={selectedProject}
+          project={{
+            ...selectedProject,
+            detail:
+              selectedProject.name === "포트폴리오"
+                ? ""
+                : selectedProject.detail,
+          }}
         />
       )}
     </div>
