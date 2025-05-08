@@ -31,7 +31,7 @@ export default function Header() {
                 onClick={() => handleScroll("home")}
                 className="hover:text-gray-400"
               >
-                Home
+                홈
               </button>
             </li>
             <li>
@@ -39,7 +39,7 @@ export default function Header() {
                 onClick={() => handleScroll("about")}
                 className="hover:text-gray-400"
               >
-                About
+                대하여여
               </button>
             </li>
             <li>
@@ -47,7 +47,7 @@ export default function Header() {
                 onClick={() => handleScroll("skills")}
                 className="hover:text-gray-400"
               >
-                Skills
+                기술술
               </button>
             </li>
             <li>
@@ -55,7 +55,7 @@ export default function Header() {
                 onClick={() => handleScroll("projects")}
                 className="hover:text-gray-400"
               >
-                Projects
+                프로젝트트
               </button>
             </li>
           </ul>
