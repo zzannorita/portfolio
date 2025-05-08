@@ -91,13 +91,7 @@ export default function Projects() {
         <Modal
           isOpen={!!selectedProject}
           onClose={() => setSelectedProject(null)}
-          project={{
-            ...selectedProject,
-            detail:
-              selectedProject.name === "포트폴리오"
-                ? ""
-                : selectedProject.detail,
-          }}
+          project={selectedProject}
         />
       )}
     </div>

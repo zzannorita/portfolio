@@ -4,7 +4,7 @@ export default function Header() {
   const handleScroll = (id) => {
     document
       .getElementById(id)
-      ?.scrollIntoView({ behavior: "smooth", block: "center" });
+      ?.scrollIntoView({ behavior: "smooth", block: "top" });
   };
   return (
     <header className="w-full border-b border-black-100 bg-white fixed z-50 top-0 px-4 shadow-custom">
