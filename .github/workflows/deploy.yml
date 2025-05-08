@@ -3,10 +3,10 @@ name: React App CI/CD
 on:
   push:
     branches:
-      - main # main 브랜치에 push할 때마다 실행됨
+      - main # main 브랜치에 push될 때마다 실행
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,11 +18,18 @@ jobs:
         with:
           node-version: "21.x"
 
-      - name: Install dependencies
-        run: pnpm install
+      # pnpm 설치 추가
+      - name: Install pnpm
+        run: npm install -g pnpm # pnpm을 글로벌로 설치
 
-      - name: Build the project
-        run: pnpm run build
+      - name: Install dependencies
+        run: pnpm install # pnpm을 사용하여 의존성 설치
+
+      - name: Run tests
+        run: pnpm test # pnpm으로 테스트 실행
+
+      - name: Build
+        run: pnpm run build # pnpm으로 빌드 실행
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
