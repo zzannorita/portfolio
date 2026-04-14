@@ -1,6 +1,8 @@
-import React from "react";
-
 export default function NotionModal({ link, onClose }) {
+  const notionUrl = link?.startsWith("http")
+    ? link
+    : `https://www.notion.so/${link}`;
+
   return (
     <div
       className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-100"
@@ -25,7 +27,7 @@ export default function NotionModal({ link, onClose }) {
           </p>
 
           <a
-            href={`https://www.notion.so/${link}`}
+            href={notionUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-black text-white rounded"
