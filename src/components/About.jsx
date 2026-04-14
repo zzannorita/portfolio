@@ -20,7 +20,7 @@ export default function About() {
     {
       images: ["images/email.png", "images/email2.png"],
       label: "email",
-      text: "zzannorita@gmail.com",
+      text: "tpals0518@gmail.com",
     },
     {
       images: ["images/phone.png", "images/phone2.png"],
